@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'drrun_Example' do
+  pod 'drrun', :path => '../'
+
+  target 'drrun_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

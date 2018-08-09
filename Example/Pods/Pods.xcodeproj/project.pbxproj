@@ -15,7 +15,6 @@
 		A05224E5FDF63D5F743A2B6B6B4A1C05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		AE3BE008D2B50787C972526EEE6EC5E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C3BD6F14A7D44C7DA249F7C88F121A9D /* drrun-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B7BD0532321AC54094BDC3C28F2A896 /* drrun-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD25B5AF5B00D30C0915845D17D2429D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E931DD9F7CC16E2FB25FF980628B5DA9 /* ReplaceMe.m */; };
 		E3AEBB3E2A6C0FD71A77426FE6C86853 /* drrun-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D10804565E8D0BC7B1C1B4C54687899A /* drrun-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12FEA33AADB5F34648F8C013B171D7C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		12FEA33AADB5F34648F8C013B171D7C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1A07C6AC84913043EB67F215A7B6BB7B /* Pods-drrun_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-drrun_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1EBC64D394F46F36599C4D54265D3A71 /* Pods-drrun_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-drrun_Example.release.xcconfig"; sourceTree = "<group>"; };
 		22A07A4C960E639939D06DDEF63583AE /* Pods-drrun_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-drrun_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -49,15 +48,15 @@
 		4A3B6850A995FEDACC98184492C48A77 /* drrun.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = drrun.modulemap; sourceTree = "<group>"; };
 		52B3E8201923F46B2604641C23E050A5 /* Pods-drrun_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-drrun_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5F321B8791589F724F2096BD81650258 /* drrun.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = drrun.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5F321B8791589F724F2096BD81650258 /* drrun.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = drrun.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		67BFEF19D3921957616808ABEB9E18E2 /* drrun-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "drrun-prefix.pch"; sourceTree = "<group>"; };
 		69C6B4ACA661C4B859E0F49F64FEE9C4 /* Pods-drrun_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-drrun_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6B7BD0532321AC54094BDC3C28F2A896 /* drrun-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "drrun-umbrella.h"; sourceTree = "<group>"; };
 		74FE4A21B05F9DA81F59C4E5E2673DDF /* Pods-drrun_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-drrun_Example-dummy.m"; sourceTree = "<group>"; };
 		7691E66C521692DDAF8BC59F41A40D1E /* Pods-drrun_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-drrun_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7DAFF9C257CE5B1EB50C9656D84399DF /* Pods-drrun_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-drrun_Tests-dummy.m"; sourceTree = "<group>"; };
-		807F1EE37E36F0A3BCC00F6FF1C11F5E /* drrun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = drrun.framework; path = drrun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		807F1EE37E36F0A3BCC00F6FF1C11F5E /* drrun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = drrun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D1D2CF689E304BED44317AF432B66D7 /* Pods-drrun_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-drrun_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C641CDF9C5BC55D9608DD33E38AC62DE /* drrun.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = drrun.xcconfig; sourceTree = "<group>"; };
 		C7E45E9FAAEB6D081CD5CE5F695617CA /* Pods-drrun_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-drrun_Tests.modulemap"; sourceTree = "<group>"; };
@@ -66,12 +65,11 @@
 		DCE38C3AB83177050D91A33053E754CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DED857896C7B37F71630C3BEFA4B3F55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1A302DCD274D8543C2E8154565B4AD0 /* Pods-drrun_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-drrun_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E55A588A02F55F642EAEB4B52C602355 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E931DD9F7CC16E2FB25FF980628B5DA9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = drrun/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		ED64F3C3429E85B516264BDDEDB474E4 /* Pods_drrun_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_drrun_Example.framework; path = "Pods-drrun_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55A588A02F55F642EAEB4B52C602355 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		ED64F3C3429E85B516264BDDEDB474E4 /* Pods_drrun_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_drrun_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31816976DAA7635DC5ABD6F25EAA9A7 /* Pods-drrun_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-drrun_Example-resources.sh"; sourceTree = "<group>"; };
 		F893CCF75B5EF05E54EADD706297C8A0 /* Pods-drrun_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-drrun_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FC7F56F9F75017749D64987EE6B25159 /* Pods_drrun_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_drrun_Tests.framework; path = "Pods-drrun_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7F56F9F75017749D64987EE6B25159 /* Pods_drrun_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_drrun_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,7 +190,6 @@
 		BE4ADFF5BD755455D5B94D25F378C001 /* drrun */ = {
 			isa = PBXGroup;
 			children = (
-				E931DD9F7CC16E2FB25FF980628B5DA9 /* ReplaceMe.m */,
 				4C986B612A9FD2E04B9465B7EB0157E8 /* Pod */,
 				AB75BB757482D45FA04FEBB1035CAD12 /* Support Files */,
 			);
@@ -352,7 +349,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3AEBB3E2A6C0FD71A77426FE6C86853 /* drrun-dummy.m in Sources */,
-				CD25B5AF5B00D30C0915845D17D2429D /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

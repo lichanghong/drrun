@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'drrun'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary      = "drrun for debug or release test."
 
   # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   #   'drrun' => ['drrun/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'drrun/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

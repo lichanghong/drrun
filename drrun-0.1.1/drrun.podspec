@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "drrun"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
   s.summary = "drrun for debug or release test."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"1211054926@qq.com"=>"lichanghong@soyoung.com"}

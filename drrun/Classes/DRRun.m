@@ -11,6 +11,6 @@
 @implementation DRRun
 - (void)run
 {
-    NSLog(@"this is debug");
+    NSLog(@"this is release...");
 }
 @end

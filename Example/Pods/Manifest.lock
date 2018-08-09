@@ -1,0 +1,16 @@
+PODS:
+  - drrun (0.1.0)
+
+DEPENDENCIES:
+  - drrun (from `../`)
+
+EXTERNAL SOURCES:
+  drrun:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  drrun: 3bc7837472600ebe235538464c1b4ec82b0b6a9c
+
+PODFILE CHECKSUM: 83a2c0331990e114b6a2af1ddb95bfb6ba91f11c
+
+COCOAPODS: 1.5.3

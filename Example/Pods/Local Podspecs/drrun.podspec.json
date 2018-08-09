@@ -1,0 +1,22 @@
+{
+  "name": "drrun",
+  "version": "0.1.0",
+  "summary": "A short description of drrun.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1211054926@qq.com/drrun",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1211054926@qq.com": "lichanghong@soyoung.com"
+  },
+  "source": {
+    "git": "https://github.com/1211054926@qq.com/drrun.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "drrun/Classes/**/*"
+}
